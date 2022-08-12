@@ -1,0 +1,69 @@
+/* Tar hele navigasjonbaren og setter en bakgrunnsfarge, marginer og padding setter plass mellom innhold og grense.*/
+ul.topnav {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color:rgb(21, 102, 129);
+}
+
+/*Setter at navigasjonsbaren skal flyte og være vannrett istedenfor loddrett */
+ul.topnav li {float: left;}
+
+/* Setter verdier til elementet inni boksene */ 
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1pc 30px;
+    text-decoration: none; 
+}
+
+/* Gjør at når musepekeren går over navigasjonsbaren så vil det markeres der musepekeren er */
+ul.topnav li a:hover {
+    background-color:lightskyblue;
+}
+/* Gjør at på den siden du er på så vil den være markert i navigasjonsbaren*/
+.active {
+    background-color:lightskyblue;
+}
+
+/* Listen flyter fra høyre */ 
+ul.topnav li.right {float: right;}
+
+/* Setter en usynlig grense rundt navigasjonsbaren slik at den skal holde seg på plass */
+.table, th, td {
+    border: 1px solid black;
+}
+
+/* Setter høyde og bredde til logo */ 
+.logo {
+    width: 150px;
+    height: 80px;
+}
+
+/*Setter høyde og bredde til bilder av kjøretøy lik på hele siden */
+.kjoretoy {
+    width: 500px;
+    height: 350px;
+}
+
+/* Sier at alle heading1 skal være like dersom h1 brukes */
+h1 {
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+
+/* Endrer klassen som tabellen på medlemsskapsinfo slik at teksten blir fet */ 
+.tabellheader {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* Setter standardverdier for alle paragrafer */ 
+p {
+    font-size: 17px;
+
+}
+
